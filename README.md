@@ -6,7 +6,7 @@
 
 ### Penjelasan Code
 #### Menggunnakan prettytable sebagai table daftar tamu
-from prettytable import PrettyTable
+```from prettytable import PrettyTable```
 
 #### Daftar tamu
 ```bukutamu = []```
