@@ -1,6 +1,8 @@
 #### Daffa Syahrandy Husain (2409116069)
 #### Mini Project 2
-![Mini Project 2](https://github.com/user-attachments/assets/bb7e646c-bede-4d53-9701-67578ae3da97)
+#### Flowchart Program
+![minpro2 GACORRRR](https://github.com/user-attachments/assets/f599e946-0ac6-49c1-a53c-cdd26c1bd8f9)
+
 
 ### Penjelasan Code
 #### Menggunnakan prettytable sebagai table daftar tamu
