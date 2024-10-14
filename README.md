@@ -166,49 +166,74 @@ from prettytable import PrettyTable
 ```tamu_login = {"username" : "tamu", "password" : "123"}```
 
 #### Menampilkan Menu utama yang memilih role
-while True:
-print("Pilih Login Sebagai Apa:")
-print("1. Admin")
-print("2. Tamu")
-print("3. Keluar dari program")
-pilih_role = input("Masukkan Pilihan: ")
+```while True:```
+
+```print("Pilih Login Sebagai Apa:")```
+
+```print("1. Admin")```
+
+```print("2. Tamu")```
+
+```print("3. Keluar dari program")```
+
+```pilih_role = input("Masukkan Pilihan: ")```
 
 #### Jika pilihan adalah login sebagai admin dan data yang dimasukkan sesuai maka memanggil fungsi admin dan menampilkan fiturnya, ketika data login yang dimasukkan salah maka kembali ke menu utama
-if pilih_role == "1":
-print("Masukkan Username dan Password")
-username = input("Masukkan username: ").lower()
-password = input("Masukkan password: ")
+```if pilih_role == "1":```
 
-if username == admin_login["username"] and password == admin_login["password"]:
-print("Login sebagai Admin berhasil")
-admin()
-else:
-print("Username atau Password yang anda masukkan salah")
+```print("Masukkan Username dan Password")```
+
+```username = input("Masukkan username: ").lower()```
+
+```password = input("Masukkan password: ")```
+
+```if username == admin_login["username"] and password == admin_login["password"]:```
+
+```print("Login sebagai Admin berhasil")```
+
+```admin()```
+
+```else:```
+
+```print("Username atau Password yang anda masukkan salah")```
+
 #### Output
 ![Screenshot 2024-10-13 163923](https://github.com/user-attachments/assets/be4573bd-9011-473a-a684-0f3a45950231)
 
 #### Jika pilihan adalah login sebagai tamu dan data yang dimasukkan sesuai maka memanggil fungsi tamu dan menampilkan fiturnya, ketika data login yang dimasukkan salah maka akan kembali ke menu utama
-elif pilih_role == "2":
-print("Masukkan Username dan Password")
-username = input("Masukkan username: ").lower()
-password = input("Masukkan password: ")
-if username == tamu_login["username"] and password == tamu_login["password"]:
-print("Login sebagai Tamu berhasil")
-tamu()
-else:
-print("Username atau Password yang anda masukkan salah")
+```elif pilih_role == "2":```
+
+```print("Masukkan Username dan Password")```
+
+```username = input("Masukkan username: ").lower()```
+
+```password = input("Masukkan password: ")```
+
+```if username == tamu_login["username"] and password == tamu_login["password"]:```
+
+```print("Login sebagai Tamu berhasil")```
+
+```tamu()```
+
+```else:```
+
+```print("Username atau Password yang anda masukkan salah")```
+
 #### Output
 ![Screenshot 2024-10-13 164212](https://github.com/user-attachments/assets/976e0801-dfb9-4b11-b93c-bce668b0d50f)
 
 #### Mwmilih berhenti dari program
-elif pilih_role == "3":
-print("Terimakasih sudah berkunjung")
-break
+```elif pilih_role == "3":```
+
+```print("Terimakasih sudah berkunjung")```
+
+```break```
 #### Output
 ![Screenshot 2024-10-13 164359](https://github.com/user-attachments/assets/398c236d-6724-4ab3-ad23-fa352564edc8)
 
 #### Ketika inputan tidak sesuai dengan yang tersedia maka akan kembali ke menu utama
-else:
-print("Pilihan salah")
+```else:```
+
+```print("Pilihan salah")```
 #### Output
 ![Screenshot 2024-10-13 164605](https://github.com/user-attachments/assets/8af84abc-fc6a-4136-b53e-319a558b54ec)
