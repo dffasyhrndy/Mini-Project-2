@@ -148,16 +148,22 @@ from prettytable import PrettyTable
 ```daftar_tamu()```
 
 ```elif fitur_tamu == "2":```
-print("=====Logout berhasil======")
-break
-else:
-print("Pilihan salah")
+
+```print("=====Logout berhasil======")```
+
+```break```
+
+```else:```
+
+```print("Pilihan salah")```
+
 #### Output
 ![Screenshot 2024-10-13 163203](https://github.com/user-attachments/assets/35a1940b-825e-4f63-9116-82bdcd1d8537)
 
 #### Berfungsi sebagai data yang ditetapkan untuk login sebagai admin atau tamu
-admin_login = {"username" : "dapa", "password" : "123"}
-tamu_login = {"username" : "tamu", "password" : "123"}
+```admin_login = {"username" : "dapa", "password" : "123"}```
+
+```tamu_login = {"username" : "tamu", "password" : "123"}```
 
 #### Menampilkan Menu utama yang memilih role
 while True:
